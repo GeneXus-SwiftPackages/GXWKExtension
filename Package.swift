@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXWKExtension",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXWKExtension-1.0.0-beta+20230414101841.xcframework.zip",
-			checksum: "5a27e75e484ed597cb5da7c4c4623a93f08cf13b3d27ca0a4f9adc97d1022ee6"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXWKExtension-1.0.0-beta+20230418130717.xcframework.zip",
+			checksum: "a85388ae5573a3a36eb6a3ea0a0ded8a1fb40d816d6bc29c56cc6b50cb15fd37"
 		)
 	]
 )
