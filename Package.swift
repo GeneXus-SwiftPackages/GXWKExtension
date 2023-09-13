@@ -10,8 +10,8 @@ let package = Package(
 			targets: ["GXWKExtensionWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.25"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXUIApplication.git", exact: "1.2.0-beta.25")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.26"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXUIApplication.git", exact: "1.2.0-beta.26")
 	],
 	targets: [
 		.target(name: "GXWKExtensionWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXWKExtension",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXWKExtension-1.2.0-beta.25.xcframework.zip",
-			checksum: "a8e067e2ff8be470fb860bc16a64886b8887068c8aafca1b427690d170627895"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXWKExtension-1.2.0-beta.26.xcframework.zip",
+			checksum: "0873e03869bddfdda7bf13aeb55f251d1c75c33109c0b8e78550dc14a3fa25f4"
 		)
 	]
 )
