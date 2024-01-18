@@ -3,15 +3,15 @@ import PackageDescription
 
 let package = Package(
 	name: "GXWKExtension",
-	platforms: [.iOS("12.0"), .watchOS("5.0")],
+	platforms: [.iOS("12.0"), .watchOS("9.0")],
 	products: [
 		.library(
 			name: "GXWKExtension",
 			targets: ["GXWKExtensionWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.4.0-rc.10"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXUIApplication.git", exact: "1.4.0-rc.10")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.4.0-rc.21"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXUIApplication.git", exact: "1.4.0-rc.21")
 	],
 	targets: [
 		.target(name: "GXWKExtensionWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXWKExtension",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXWKExtension-1.4.0-rc.10.xcframework.zip",
-			checksum: "f4c40d65a68b575ff68fb047c4e2912121edb8a1f5d71f08a5b22e7d70424755"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXWKExtension-1.4.0-rc.21.xcframework.zip",
+			checksum: "d743f91729696fcc4bd5d95be822168159b855e460173a9cc9ee1131089df62b"
 		)
 	]
 )
